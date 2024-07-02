@@ -40,5 +40,5 @@ jobs:
           context: .
           push: true
           tags: |
-            kingobi/globalleaks:${{ env.tag }}
-            kingobi/globalleaks:latest
+            kingobi/globaleaks:${{ env.tag }}
+            kingobi/globaleaks:latest

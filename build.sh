@@ -4,11 +4,11 @@
 GLB_VERSION="3.6.1"  # Replace with the desired version
 
 # Build the Docker image
-docker build -t globalleaks:$GLB_VERSION .
+docker build -t globaleaks:$GLB_VERSION .
 
 # Tag the latest version
-docker tag globalleaks:$GLB_VERSION globalleaks:latest
+docker tag globaleaks:$GLB_VERSION globaleaks:latest
 
 # Push images to Docker Hub (optional)
-# docker push globalleaks:$GLB_VERSION
-# docker push globalleaks:latest
+# docker push globaleaks:$GLB_VERSION
+# docker push globaleaks:latest
